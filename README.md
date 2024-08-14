@@ -2,7 +2,15 @@
 
 ## Description
 
-Conversion de imágens, colas y listener de eventos.
+- Crear y configurar modelos y migraciones
+- Crear un modelo Category con su migración correspondiente.
+- Modificar la tabla de servicios para incluir una relación con categorías.
+- Establecer relaciones entre modelos
+- Modificar controladores y vistas:
+- Actualizar los métodos create() y edit() en el controlador de servicios para incluir categorías.
+- Modificar el formulario de creación/edición de servicios para incluir un select con las categorías.
+- Mostrar categorías en el listado de servicios
+- Actualizar la vista de listado de servicios para mostrar la categoría de cada servicio.
 
 ## Installation
 
@@ -30,19 +38,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Desarrollo
 
-1. Subida de imagen
+1. Crear servicio con su categoría
 
-![image](https://github.com/user-attachments/assets/9840d143-4cc1-42d1-a455-53b75dd0ab8f)
+![image](https://github.com/user-attachments/assets/f8944fc7-1a8f-47b6-bf6b-57ddc62d82a4)
 
-Listener de notificación
+2. Lista de servicios con su relacion
 
-![image](https://github.com/user-attachments/assets/2c8d53ac-0b08-400e-a947-e1959e06912e)
+![image](https://github.com/user-attachments/assets/d4243132-d7f3-4a50-a4ac-945b37eab47a)
 
-2. Conversión de imagen de JPG a Webp (Se verifica en el bucket subido)
+3. Actualizar el servicio
 
-![image](https://github.com/user-attachments/assets/186ae54a-f2b1-4d23-94fb-f2b641469906)
+![image](https://github.com/user-attachments/assets/023d83d6-3737-4b54-b04f-b9b8f395ad6d)
 
-3. Comprobación de listener de Actividades en la Base de datos
+4. Filtrado por categorias en los servicios
 
-![image](https://github.com/user-attachments/assets/12ef3a59-8b3c-40e8-ba70-cc320ee3f82d)
+![image](https://github.com/user-attachments/assets/67f449f0-b23a-41dd-8791-c7be37e5a6cb)
+
+![image](https://github.com/user-attachments/assets/ebff0585-0c51-4468-af78-72583c0db2ef)
+
 
